@@ -1,0 +1,117 @@
+    * {
+    font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
+}
+body {
+    background-color: rgba(0, 0, 0, 0.61);
+    background-image: url("Images/pen-on-paper.jpeg");
+    background-attachment: fixed;
+}
+header, main, section, footer {
+    padding: 10px;
+    margin: 10px;
+}
+section {
+    border-radius: 20px;
+}
+p {
+    line-height: 2.25;
+    margin-left: 10px;
+}
+.center {
+    text-align: center;
+}
+.main-content {
+    background-color: hsla(180, 75%, 30%, 0.5);
+}
+.header, .about-me, .home, .services {
+    background-color: hsla(0, 0%, 100%, 0.75);
+}
+.footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}
+.col-1of3 {
+    display: block;
+    float: left;
+    width: 33%;
+}
+.col-1of3 li {
+    list-style: circle;
+}
+.clear:after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+.list {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.list li {
+    list-style: circle;
+    float: left;
+    margin: 15px;
+    width: auto;
+    text-align: center;
+}
+.logo {
+    display: block;
+    margin: auto;
+}
+#header {
+    border-top-right-radius: 50px;
+}
+#about-me {
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+#about {
+    position: relative;
+    right: 140px;
+}
+#top-logo {
+    display: block;
+    float: right;
+    position: relative;
+    top: 30px;
+}
+#header-top {
+    display: inline-block;
+    float: left;
+    line-height: 0.5;
+    position:relative;
+    left: 100px;
+}
+#profile-photo {
+    position: relative;
+    right: 15px;
+}
+#footer {
+    border-bottom-left-radius: 50px;
+}
+#list-items2 {
+    position: relative;
+    left: 230px;
+}
+.img-profile {
+    display: block;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 300px;
+    float: left;
+    shape-outside: circle();
+    margin-right: 15px;
+}
+.wrapper {
+    margin: auto;
+    width: 90%;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    background-color: hsla(0, 0%, 87%, 0.50);
+    border: 1px solid hsl(0, 0%, 89%);
+    border-radius: 8px;
+    box-shadow: inset 0 1px 1px hsla(0, 0%, 0%, 0.05)
