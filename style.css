@@ -1,10 +1,8 @@
-    * {
-    font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
-}
 body {
     background-color: rgba(0, 0, 0, 0.61);
     background-image: url("Images/pen-on-paper.jpeg");
     background-attachment: fixed;
+    font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
 }
 header, main, section, footer {
     padding: 10px;
@@ -53,7 +51,7 @@ p {
 .list li {
     list-style: circle;
     float: left;
-    margin: 15px;
+    margin: 10px;
     width: auto;
     text-align: center;
 }
@@ -92,6 +90,7 @@ p {
 #footer {
     border-bottom-left-radius: 50px;
 }
+
 #list-items2 {
     position: relative;
     left: 230px;
